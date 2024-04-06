@@ -6,6 +6,7 @@ void main(){
   String? secondName;
   print(secondName);
 
+  // ignore: unnecessary_null_comparison
   if(secondName==null){
     print("Null Value");
   }
